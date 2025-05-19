@@ -9,7 +9,7 @@ app.use(express.json());
 const BASE_URL = "https://models.github.ai/inference/chat/completions";
 const API_KEYS = [
     "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",  // Primary
-    "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"   // Fallback
+    "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"   // Fallback
 ];
 
 async function callApi(messages) {
