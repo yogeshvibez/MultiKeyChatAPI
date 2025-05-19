@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Express API for multi-key Azure Chat Completion fallback.",
   "type": "module",
-  "main": "server.js",
+  "main": "Github.MultiKeyChatAPI.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node Github.MultiKeyChatAPI.js"
   },
   "keywords": ["azure", "chat", "express", "multi-key", "api"],
   "author": "yogeshvibez (github.com/yogeshvibez)",
