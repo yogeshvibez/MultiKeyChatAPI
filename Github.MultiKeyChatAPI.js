@@ -6,12 +6,12 @@ import { AzureKeyCredential } from "@azure/core-auth";
 const app = express();
 app.use(express.json());
 
-const ENDPOINT = "";
-const MODEL = "";
+const ENDPOINT = "https://models.github.ai/inference";
+const MODEL = "openai/gpt-4.1";
 
 const API_KEYS = [
-    "",
-    ""
+    "ghp_HOUESqrdhyxTlPFFkHaOwLfJ50SlRz0sey46",
+    "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"
 ];
 
 async function sendMessage(messages) {
