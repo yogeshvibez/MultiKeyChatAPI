@@ -1,0 +1,13 @@
+{
+  "name": "multi-key-chat-api",
+  "version": "1.0.0",
+  "main": "Github.MultiKeyChatAPI.js",
+  "scripts": {
+    "start": "node Github.MultiKeyChatAPI.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@azure-rest/ai-inference": "^1.0.0",
+    "@azure/core-auth": "^1.4.0"
+  }
+}
