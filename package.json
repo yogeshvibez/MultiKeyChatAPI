@@ -1,20 +1,15 @@
 {
-  "name": "multi-key-chat-api",
+  "name": "multikey-chat-api",
   "version": "1.0.0",
-  "description": "Express API for multi-key Azure Chat Completion fallback.",
-  "type": "module",
+  "description": "Node.js API with fallback API key mechanism for chat completions",
   "main": "Github.MultiKeyChatAPI.js",
   "scripts": {
     "start": "node Github.MultiKeyChatAPI.js"
   },
-  "keywords": ["azure", "chat", "express", "multi-key", "api"],
-  "author": "yogeshvibez (github.com/yogeshvibez)",
-  "license": "MIT",
   "dependencies": {
-    "@azure-rest/ai-inference": "^1.0.2",
-    "@azure/core-auth": "^1.5.0",
-    "@azure/core-client": "^1.8.0",
-    "express": "^4.19.2",
-    "cors": "^2.8.5"
-  }
+    "express": "^4.18.2",
+    "axios": "^1.6.2"
+  },
+  "author": "yogesvibez (github.com/yogeshvibez)",
+  "license": "MIT"
 }
