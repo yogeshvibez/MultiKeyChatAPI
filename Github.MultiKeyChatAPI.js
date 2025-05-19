@@ -64,6 +64,6 @@ app.post('/chat', async (req, res) => {
     }
 });
 
-app.listen(5000, '127.0.0.1', () => {
-    console.log('Server running at http://127.0.0.1:5000');
+app.listen(5000, '54.254.162.138', () => {
+    console.log('Server running at http://54.254.162.138:5000');
 });
